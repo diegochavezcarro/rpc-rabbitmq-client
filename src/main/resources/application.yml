@@ -1,9 +1,10 @@
 spring:
   application:
     name: rpc-rabbitmq-client
-#logging:
-#  level:
-#    com.diego: DEBUG
+logging:
+  level:
+    com.dchavez: DEBUG
+    org.springframework.web: WARN
 server:
   port: 8084
 opentracing:
