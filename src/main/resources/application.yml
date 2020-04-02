@@ -1,6 +1,10 @@
 spring:
   application:
     name: rpc-rabbitmq-client
+#  rabbitmq:
+#    listener:
+#      simple:
+#        default-requeue-rejected: true
 logging:
   level:
     com.dchavez: DEBUG
@@ -12,3 +16,5 @@ opentracing:
     udp-sender:
       host: localhost
       port: 6831
+  
+
